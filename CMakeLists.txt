@@ -3,4 +3,9 @@ project(LearnC C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(LearnC main.c basic/tokens.c basic/constants.c basic/operators.c basic/data_types.c basic/type_casting.c)
+add_executable(LearnC main.c)
+add_executable(LearnTokens basic/tokens.c)
+add_executable(LearnConstant basic/constants.c)
+add_executable(LearnOperator basic/operators.c)
+add_executable(LearnDataTypes basic/data_types.c)
+add_executable(LearnTypeCasting basic/type_casting.c)

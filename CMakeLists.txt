@@ -3,4 +3,4 @@ project(LearnC C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(LearnC main.c)
+add_executable(LearnC main.c basic/tokens.c)

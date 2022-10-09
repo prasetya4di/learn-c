@@ -20,7 +20,7 @@
  */
 
 //function declaration
-int addition(int num1, int num2);
+int addition(int *num1, int *num2);
 
 int main() {
     //local variable definition
@@ -29,13 +29,13 @@ int main() {
     int num2 = 5;
 
     //calling a function to get addition value
-    answer = addition(num1,num2);
+    answer = addition(&num1,&num2);
 
     printf("The addition of two numbers is: %d\n",answer);
     return 0;
 }
 
 //function returning the addition of two numbers
-int addition(int a,int b) {
-    return a + b;
+int addition(int *a,int *b) {
+    return *a + *b;
 }

@@ -22,3 +22,4 @@ add_executable(LearnFunctionCallByReference function/function_call_by_reference.
 add_executable(LearnLibraryFunctions function/library_functions.c)
 add_executable(LearnVariableScope function/variable_scope.c)
 add_executable(LearnRecursion function/recursion.c)
+add_executable(LearnStorageClasses function/storage_classes.c)

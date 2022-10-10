@@ -7,6 +7,7 @@
 #include<stdlib.h>
 
 void exMalloc() {
+    printf("\n trying malloc \n");
     char *mem_alloc;
     //memory allocated dynamically
     mem_alloc = malloc( 15 * sizeof(char) );

@@ -7,6 +7,7 @@
 #include<stdlib.h>
 
 void exCalloc() {
+    printf("\n trying calloc \n");
     char *mem_alloc;
     //memory allocated dynamically
     mem_alloc = calloc( 15, sizeof(char) );

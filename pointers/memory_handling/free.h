@@ -19,7 +19,7 @@ void exFree()
         strcpy( mem_alloc,"w3schools.in");
     }
 
-    printf("Dynamically allocated memory content  : " \ "%s\n", mem_alloc );
+    printf("Dynamically allocated memory content  : %s\n", mem_alloc );
     mem_alloc=realloc(mem_alloc,100*sizeof(char));
 
     if( mem_alloc == NULL ) {

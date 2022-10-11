@@ -11,13 +11,16 @@ int main() {
     printf("you are Eligible\n");
     s: //label name
     printf("you are not Eligible");
-    printf("Enter you age:");
+    printf("\nEnter you age:");
     scanf("%d", &age);
-    if(age>=18)
+    if(age>=18 && age<25) {
         goto g; //goto label g
-    else if (age<35)
+    } else if (age<35&&age>18) {
         goto s; //goto label s
-    else
+    }
+    else {
         printf("You are too old");
+    }
+
     return 0;
 }

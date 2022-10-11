@@ -36,8 +36,8 @@
 #include <stdio.h>
 #include "stdlib.h"
 
-/* #define macro_name character_sequence */
 /*
+ * Define macro_name character_sequence
  * Will run loop ten times
  */
 #define LIMIT 10
